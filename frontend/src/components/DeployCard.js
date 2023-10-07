@@ -30,7 +30,7 @@ function DeployCard(props) {
         >
           <b>Shipyard</b>
         </Link>{' '}
-        to deploy your app to an ephemeral environment using Shipyard, following these simple steps:
+        To deploy your app to an ephemeral environment using Shipyard, following these simple steps:
       </p>
       <ul className={classes.list}>
         <li>

@@ -40,7 +40,7 @@ services:
     environment:
       DATABASE_URL: 'postgres://obscure-user:obscure-password@postgres/app'
       DEV: ${DEV}
-      FLASK_DEBUG: '1'
+      FLASK_DEBUG: '0'
       LOCALSTACK_HOST: 'localstack'
     command: '/entrypoints/worker.sh'
     volumes:

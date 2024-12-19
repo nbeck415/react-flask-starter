@@ -7,7 +7,7 @@ function DeployCard(props) {
 
   return (
     <Card className={classes.card}>
-      <h2>Deploy your app to the cloud</h2>
+      <h2>Deploy your app to an ephemeral environment</h2>
       <Box
         display="flex"
         flexDirection="row"
@@ -30,7 +30,7 @@ function DeployCard(props) {
         >
           <b>Shipyard</b>
         </Link>{' '}
-        to deploy your app to the cloud, following these simple steps:
+        To deploy your app to an ephemeral environment using Shipyard, following these simple steps:
       </p>
       <ul className={classes.list}>
         <li>
@@ -58,7 +58,7 @@ function DeployCard(props) {
           credentials.
         </li>
         <li>
-          Click <b>Add Repository</b> to select the repo for this starter
+          Click <b>Add Application</b> to select the repo for this starter
           project.
         </li>
         <li>
@@ -70,7 +70,7 @@ function DeployCard(props) {
       </ul>
       <p>
         Once the app is up and running, you'll be able to see it by clicking the{' '}
-        <b>View Live Environment</b> icon.
+        <b>🚢 Visit</b> button.
       </p>
     </Card>
   );
